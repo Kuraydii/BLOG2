@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT - STUPIFY</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="main">
+        <!-- NAVBAR -->
+        <header class="navbar">
+            <a href="index.html" class="logo">STUPIFY</a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                ☰
+            </button>
+
+            <nav class="menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html" class="active">ABOUT</a></li>
+                    <li><a href="profile.html">PROFILE</a></li>
+                    <li><a href="index.html">EXPLORE</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ABOUT HERO -->
+        <main class="page-container">
+            <section class="about-hero">
+                <h1 class="page-title">ABOUT STUPIFY</h1>
+                <p class="about-intro">
+                    Welcome to <strong>STUPIFY</strong>—your digital nexus for everything Marvel. From the deep multiversal lore of Marvel Comics to the cinematic universe (MCU), we bring fans comprehensive breakdowns, character deep dives, and cutting-edge theories.
+                </p>
+            </section>
+
+            <!-- MISSION & VISION SECTION -->
+            <section class="about-grid">
+                <div class="about-card">
+                    <h2>OUR MISSION</h2>
+                    <p>To provide a central hub for Marvel enthusiasts to explore stories, decipher multiversal timelines, and discuss character origins with high-quality content and sleek design.</p>
+                </div>
+                <div class="about-card">
+                    <h2>OUR VISION</h2>
+                    <p>To build a community-driven portal that bridges the gap between casual moviegoers and hardcore comic readers across every phase of the Multiverse Saga.</p>
+                </div>
+            </section>
+
+            <!-- FEATURES / HIGHLIGHTS -->
+            <section class="about-features">
+                <h2 class="section-header">WHAT WE COVER</h2>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <span class="feature-icon">⚡</span>
+                        <h3>MCU Theories & Breakdown</h3>
+                        <p>In-depth analysis of upcoming releases like <em>Avengers: Doomsday</em>, multiversal incursions, and Secret Wars.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📚</span>
+                        <h3>Comic Book Origins</h3>
+                        <p>Connecting iconic MCU screen moments back to their original comic page roots and legendary story arcs.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎬</span>
+                        <h3>Movies & Animation</h3>
+                        <p>Previews, reviews, and retrospectives on everything from retro classic animation like <em>X-Men '97</em> to phase blockbusters.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">STUPIFY</h3>
+                    <p class="footer-tagline">Your ultimate portal for Marvel lore, MCU updates, and comic origins.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="index.html">Latest Articles</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-credits">
+                    <h4>Credits & Disclaimer</h4>
+                    <p>Designed & Developed by <strong>STUPIFY Team</strong>.</p>
+                    <p class="disclaimer">Marvel characters, posters, and assets are property of Marvel Entertainment & Disney.</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 STUPIFY. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

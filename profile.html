@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER PROFILE - STUPIFY</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="main">
+        <!-- NAVBAR -->
+        <header class="navbar">
+            <a href="homepage.html" class="logo">STUPIFY</a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                ☰
+            </button>
+
+            <nav class="menu" id="navMenu">
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="profile.html" class="active">PROFILE</a></li>
+                    <li><a href="homepage.html#latest">EXPLORE</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- PROFILE CONTENT -->
+        <main class="page-container">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <div class="profile-avatar">
+                        <span class="avatar-icon">🦸‍♂️</span>
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="user-name">Marvel Fanatic</h1>
+                        <p class="user-role">Level 42 Multiverse Explorer</p>
+                        <span class="user-badge">VIP Member</span>
+                    </div>
+                </div>
+
+                <div class="profile-details">
+                    <div class="detail-group">
+                        <label>Email Address</label>
+                        <p>user@stupify.com</p>
+                    </div>
+                    <div class="detail-group">
+                        <label>Favorite Faction</label>
+                        <p>Avengers / X-Men</p>
+                    </div>
+                    <div class="detail-group">
+                        <label>Favorite Movie</label>
+                        <p>Avengers: Infinity War</p>
+                    </div>
+                    <div class="detail-group">
+                        <label>Member Since</label>
+                        <p>March 2026</p>
+                    </div>
+                </div>
+
+                <!-- BOOKMARKS / SAVED ARTICLES -->
+                <div class="saved-articles-section">
+                    <h2 class="section-header">BOOKMARKED ARTICLES</h2>
+                    <ul class="saved-list">
+                        <li>
+                            <a href="doomsday-theories.html">Is Doctor Doom Manipulating the Multiverse?</a>
+                            <span class="read-tag">Saved</span>
+                        </li>
+                        <li>
+                            <a href="infinity-war-retrospective.html">How Infinity War Changed MCU Stakes Forever</a>
+                            <span class="read-tag">Saved</span>
+                        </li>
+                        <li>
+                            <a href="fantastic-four-preview.html">Fantastic Four: First Steps Preview</a>
+                            <span class="read-tag">Saved</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">STUPIFY</h3>
+                    <p class="footer-tagline">Your ultimate portal for Marvel lore, MCU updates, and comic origins.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="homepage.html#latest">Latest Articles</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-credits">
+                    <h4>Credits & Disclaimer</h4>
+                    <p>Designed & Developed by <strong>STUPIFY Team</strong>.</p>
+                    <p class="disclaimer">Marvel characters, posters, and assets are property of Marvel Entertainment & Disney.</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 STUPIFY. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
